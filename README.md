@@ -23,8 +23,8 @@ The Google search is configured with the same keywords used on the local search,
 
 ## How to install
 
-- Download the extension from (no download link yet). 
-- Double-click on the Google Search If Site Search Has No Results.safariextension
+- [Download](https://github.com/gcerquant/Safari-Extension-Google-Search-If-Site-Search-Has-No-Results/releases) the compiled extension from GitHub (file **Google.Search.If.Site.Search.Has.No.Results.safariextz**). 
+- Double-click on the file `Google Search If Site Search Has No Results.safariextension` in your Downloads folder.
 - Safari will ask you to confirm the installation:  
 ![Confirm installation](./documentation_images/confirm_installation.png)  
 - The extension will now appear in the extension installed list (tab Extensions in Safari's Preferences):
