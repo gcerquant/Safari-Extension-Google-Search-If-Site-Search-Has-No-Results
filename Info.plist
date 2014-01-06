@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Guillaume Cerquant</string>
+	<key>Builder Version</key>
+	<string>8537.71</string>
+	<key>CFBundleDisplayName</key>
+	<string>Google Search If Site Search Has No Results</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.macmation.googlesearchifsitesearchhasnoresults</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>add_link_to_Google_search.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>*://stackoverflow.com/search?q=*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Add a link to Google if the search of the site has no result</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.stackoverflow.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://www.macmation.com</string>
+</dict>
+</plist>
