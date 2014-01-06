@@ -55,9 +55,11 @@ For example: `*.stackoverflow.com`
 This tell Safari to load this extension when visiting the host name.
     
 - Add a New URL Pattern to the Whitelist to whitelist the search pages.  
-For example: `*://stackoverflow.com/search?q=*`  
+For example: `http://stackoverflow.com/search?q=*`  
 ![Screenshot example](./documentation_images/New_URL_Pattern_In_Injected_Extension_Content_Whitelist.png)  
-This tell Safari to only load this extension when visiting a search page
+This tell Safari to only load this extension when visiting a search page  
+*Note that as per the documentation, the wildcard * can not be used in the scheme.*  
+**BUG: As per my testing, the whitelist does not work as expected. Ie, only having this in the whitelist: `http://stackoverflow.com/search?q=*`, the extension is still loaded on `stackoverflow.com` or `http://stackoverflow.com/tags`.**
 
 - Implement the 3 functions to search and manipulate the DOM tree:  
   detect if user is visiting a search result page with no results found: `is_a_search_page_with_no_results_DOMAIN()`,  
@@ -76,7 +78,7 @@ Thank you!
 
 ## Authors
 
-Guillaume Cerquant, founder of [Courrier-App](http://www.courrier-app.fr "Envoi de recommandés par internet") and [MacMation](http://www.macmation.com "Mac Automation").
+Guillaume Cerquant, founder of [Courrier-App](http://www.courrier-app.fr "Envoi de recommandés par internet") and [MacMation](http://www.macmation.com "Mac Automation"). Twitter account: [@gcerquant](http://www.twitter.com/gcerquant "Guillaume Cerquant's twitter account").
 
 ## Contributors
 

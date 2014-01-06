@@ -29,7 +29,7 @@
 		</dict>
 		<key>Whitelist</key>
 		<array>
-			<string>*://stackoverflow.com/search?q=*</string>
+			<string>http://stackoverflow.com/search?q=*</string>
 		</array>
 	</dict>
 	<key>Description</key>
