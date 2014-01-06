@@ -1,7 +1,7 @@
 # Safari Extension: Google Search If Site Search Has No Results
 
 ## What is it?
-**This Safari extension detects when a website search returns no results and adds a link to the same search query on Google.**
+**This Safari extension detects when a website search returns no results. It then adds a link to Google for the same search query.**
 
 This is helpful, because when you are not using the perfect keywords, Google is way better at selecting what you are searching than any search engine of a website.  
 Sometimes, only mixing up two letters prevents any search results to show up.
